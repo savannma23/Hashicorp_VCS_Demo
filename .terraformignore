@@ -1,0 +1,11 @@
+# Ignore .git directory
+.git/
+
+# Ignore .terraform directory
+.terraform/
+
+# Ignore other files or directories as needed
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
