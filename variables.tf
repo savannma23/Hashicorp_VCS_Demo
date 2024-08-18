@@ -1,7 +1,7 @@
 variable "region" {
   description = "The AWS region in which the resources will be created."
   type        = string
-  default     = "us-east-1"
+  default     = "us-east-2"
 }
 
 variable "availability_zone" {
