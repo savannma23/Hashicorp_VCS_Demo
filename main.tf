@@ -7,7 +7,7 @@ data "aws_vpc" "default" {
 resource "aws_security_group" "web_sg" {
   name        = "web_sg"
   description = "Allow HTTP and HTTPS traffic"
-  vpc_id      = data.aws_vpc.default.id
+  vpc_id      = data.aws_vpc.default.id 
 
   ingress {
     from_port   = 80

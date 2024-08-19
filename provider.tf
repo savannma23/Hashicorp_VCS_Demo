@@ -5,12 +5,12 @@ terraform {
       version = "~> 3.0"
     }
   }
-  /*cloud {
+  cloud {
     organization = "Hashicorp_Demo_savannah"
     workspaces {
       name = "Hashicorp_VCS_Demo"
     }
-  }*/
+  }
 }
 
 provider "aws" {
