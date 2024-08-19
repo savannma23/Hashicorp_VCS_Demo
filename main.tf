@@ -43,7 +43,7 @@ resource "aws_instance" "web" {
               #!/bin/bash
               sudo apt-get update
               sudo apt-get install -y apache2
-              echo "<html><body><h1>Lets see if we connected!</h1></body></html>" > /var/www/html/index.html
+              echo "<html><body><h1>Testing to see what happens with a PUll</h1></body></html>" > /var/www/html/index.html
               sudo systemctl start apache2
               sudo systemctl enable apache2
               EOF
